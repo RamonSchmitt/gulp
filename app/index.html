@@ -2,11 +2,19 @@
 <html>
   <head>
     <title>Gulp Tutorial</title>
+    <!--build:css css/styles.min.css-->
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css">
+    <!--endbuild-->
   </haed>
   <body>
     <h1>
       Hello Gulp!
     </h1>
+    <!--build:js js/main.min.js -->
+    <script src="js/lib/a-library.js"></script>
+    <script src="js/lib/another-library.js"></script>
+    <script src="js/main.js"></script>
+    <!-- endbuild -->
   </body>
 </html>
